@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      "colors": {
-        "black": {
+      colors: {
+        black: {
           50: "#EDEDED",
           100: "#D9D9D9",
           200: "#B3B3B3",
@@ -15,10 +15,10 @@ module.exports = {
           700: "#292929",
           800: "#1A1A1A",
           900: "#0D0D0D",
-          950: "#080808"
-        }
-      }
-    }
+          950: "#080808",
+        },
+      },
+    },
   },
   plugins: [],
 };
