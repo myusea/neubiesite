@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.project-card {
+    width: 100%;
+    /* Set a default width for responsive design */
+    max-width: 300px;
+    /* Limit the maximum width to fit the image size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
